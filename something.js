@@ -1,5 +1,3 @@
-function fName (params) {
+exports.fName = function (params) {
   return params + 2
 }
-
-fName(4)
