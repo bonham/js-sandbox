@@ -1,0 +1,22 @@
+{
+  "name": "js_sandbox",
+  "version": "1.0.0",
+  "description": "my sandbox",
+  "main": "something.js",
+  "scripts": {
+    "test": "jest"
+  },
+  "keywords": [
+    "sandbox"
+  ],
+  "author": "Art Furrer",
+  "license": "ISC",
+  "devDependencies": {
+    "eslint": "^6.6.0",
+    "eslint-config-standard": "^14.1.0",
+    "eslint-plugin-import": "^2.18.2",
+    "eslint-plugin-node": "^10.0.0",
+    "eslint-plugin-promise": "^4.2.1",
+    "eslint-plugin-standard": "^4.0.1"
+  }
+}
