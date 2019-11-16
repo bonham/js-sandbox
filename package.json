@@ -5,7 +5,9 @@
   "main": "something.js",
   "scripts": {
     "test": "jest",
-    "start": "node something.js"
+    "start": "node something.js",
+    "async": "node async.js",
+    "async2": "node async2.js"
   },
   "keywords": [
     "sandbox"

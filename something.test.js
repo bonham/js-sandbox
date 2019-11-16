@@ -1,5 +1,6 @@
 var something = require('./something')
+var fName = something.fName
 
 test('first tests', () => {
-  expect(something.fName(3)).toBe(5)
+  expect(fName(3)).toBe(5)
 })
