@@ -10,7 +10,7 @@ const promiseFn = firstName => {
   })
 }
 
-const result = (async () => {
+const result = async () => {
   try {
     console.log(await promiseFn('Jim'))
   } catch (e) {
@@ -22,4 +22,5 @@ const result = (async () => {
   } catch (e) {
     console.log(e)
   }
-})()
+}
+result()
